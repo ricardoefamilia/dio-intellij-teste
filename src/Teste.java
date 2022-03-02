@@ -1,5 +1,6 @@
 import model.PessoaFisica;
 import model.PessoaJuridica;
+import model.Livro;
 
 /*
 @author Ricardo Lima Amaral
@@ -29,5 +30,9 @@ public class Teste {
 
         System.out.println(pj.toString());
 
+        Livro livro = new Livro("Se meu fusca falasse", 350);
+        System.out.println(livro);
+
     }
+
 }
